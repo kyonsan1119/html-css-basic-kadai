@@ -66,11 +66,9 @@ h2::before {
 
 /* contents内の二番目のp要素内のテキストの中で一番目の文字にのみ、以下のスタイル設定 */
 /* 太字、文字色はrgb(97, 206, 249) */
-.contents p:nth-of-type(2) {
-  ::first-letter {
+p:nth-of-type(2)::first-letter {
     font-weight: bold;
     color: rgb(97, 206, 249);
-  }
 }
 
 /* class名contents内のimg要素に、marginは上下10px、左右0、幅は70% */
