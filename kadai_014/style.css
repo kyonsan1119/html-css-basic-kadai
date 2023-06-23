@@ -1,0 +1,34 @@
+html {
+  /* 20px（ルート要素）/16px（デフォルト）=1.25（125％）を指定 */
+  font-size: 125%;
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  /* h1をGoogle Fontsを指定 */
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2rem;
+  /* 40px（h1はルートの2倍）の1.2倍に指定 */
+  letter-spacing: 1.2em;
+  /* h1のtextに影をつける */
+  text-shadow: 3px 2px 1px skyblue;
+  /* h1のtextに下線部をつける */
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+.text-skyblue {
+  color: skyblue;
+}
+
+.text-pink {
+  color: rgb(255, 192, 203);
+}
+
+#basic p {
+  font-weight: bold;
+}
