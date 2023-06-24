@@ -66,7 +66,7 @@ h2::before {
 
 /* contents内の二番目のp要素内のテキストの中で一番目の文字にのみ、以下のスタイル設定 */
 /* 太字、文字色はrgb(97, 206, 249) */
-p:nth-of-type(2)::first-letter {
+.contents p:nth-of-type(2)::first-letter {
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
